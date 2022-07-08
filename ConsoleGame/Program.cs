@@ -15,6 +15,8 @@ namespace ConsoleGame
             player.Attack();
 
             Out($"Welcome, {player.Name}. Here's what we know so far: ");
+
+            // Testing a GIT change
         }
 
         private static void Out(string message)
