@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+     <title>Tic-tac-toe</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+     <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+     <div class="container">
+          <form>
+               <input id="Name" type="text" value="">
+               <input type="submit">
+          </form>
+
+          <div id="message">Computer: Welcome to Tic-tac-toe! Enter your name to start the game!</div>
+
+          <div id="board">
+               <table>
+                    <tr>
+                         <td id="0" class="cell"></td>
+                         <td id="1" class="cell vert"></td>
+                         <td id="2" class="cell"></td>
+                    </tr>
+                    <tr>
+                         <td id="3" class="cell hori"></td>
+                         <td id="4" class="cell vert hori"></td>
+                         <td id="5" class="cell hori"></td>
+                    </tr>
+                    <tr>
+                         <td id="6" class="cell"></td>
+                         <td id="7" class="cell vert"></td>
+                         <td id="8" class="cell"></td>
+                    </tr>
+               </table>
+
+               <button id="reset">Reset</button>
+          </div>
+     </div>
+
+     <script src="game.js"></script>
+</body>
+
+</html>

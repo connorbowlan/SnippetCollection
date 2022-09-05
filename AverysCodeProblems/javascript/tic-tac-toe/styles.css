@@ -1,0 +1,64 @@
+body {
+     font: 1em 'Roboto', sans-serif;
+}
+
+.container {
+     margin: 1em auto;
+     width: 500px;
+}
+
+form {
+     margin: 1em auto;
+}
+
+form input {
+     border: 1px solid #cccccc;
+     padding: 1em;
+}
+
+#message {
+     background: rgb(166, 194, 166);
+     border: 1px solid rgb(64, 94, 64);
+     padding: 1em;
+}
+
+#board {
+     background: #eaeaea;
+     border: 1px solid #cccccc;
+     margin-bottom: 1rem;
+     padding: 1rem;
+}
+
+#board table {
+     border-collapse: collapse;
+     margin: auto;
+}
+
+#board table td {
+     cursor: pointer;
+     font-size: 100px;
+     height: 100px;
+     line-height: 100px;
+     text-align: center;
+     width: 100px;
+}
+
+#board table td.vert {
+     border-left: 2px solid #000000;
+     border-right: 2px solid #000000;
+}
+
+#board table td.hori {
+     border-bottom: 2px solid #000000;
+     border-top: 2px solid #000000;
+}
+
+table td {
+     height: 100px;
+     text-align: center;
+     width: 100px;
+}
+
+.hide {
+     display: none;
+}

@@ -1,0 +1,21 @@
+{
+    "post": {
+        "location": "Hong Kong",
+        "willDeliver": false,
+        "messages": [],
+        "active": true,
+        "_id": "6311182356b3b90017d52852",
+        "title": "Jackie Chan Fried Noodle Party",
+        "description": "Invite only. Applications accepted.",
+        "price": "1",
+        "author": {
+            "_id": "6310f55656b3b90017d5276f",
+            "username": "averyhart"
+        },
+        "cohort": "630d098b7562e80017eed7c7",
+        "createdAt": "2022-09-01T20:37:55.730Z",
+        "updatedAt": "2022-09-01T20:37:55.730Z",
+        "__v": 0,
+        "isAuthor": true
+    }
+}

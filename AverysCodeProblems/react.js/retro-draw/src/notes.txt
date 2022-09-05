@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+https://learn.fullstackacademy.com/workshop/5f7b9151052e5400041d230e/content/5f7b945d052e5400041d2420/text
+
+"Inside the <div> that the Palette function returns add a COLORS.map(), transforming the colors into <Cell> components."
+
+These instructions are vague and unhelpful. There is not enough context. Array.map() of const COLORS does not perform any specific action.
+--------------------------------------------------------------------------------------------------------------------------------------------
+"const Cell = (props) => {"
+
+This is deprecated by:
+
+"function Cell(props) {"
+--------------------------------------------------------------------------------------------------------------------------------------------
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+)
+
+This is deprecated by:
+
+import ReactDOM from 'react-dom/client';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <App />
+);
+--------------------------------------------------------------------------------------------------------------------------------------------

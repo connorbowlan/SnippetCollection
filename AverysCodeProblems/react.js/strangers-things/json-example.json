@@ -1,0 +1,27 @@
+{
+     "success": true,
+     "error": null,
+     "data": {
+          "posts": [
+               {
+                    "location": "[On Request]",
+                    "willDeliver": false,
+                    "messages": [],
+                    "active": true,
+                    "_id": "630d098b7562e80017eed7cb",
+                    "author": {
+                         "_id": "630d098b7562e80017eed7c8",
+                         "username": "joe1234"
+                    },
+                    "cohort": "630d098b7562e80017eed7c7",
+                    "title": "Practically new Stradivarius",
+                    "description": "I've really only used this three or four times.  I thought it would be a good purchase, shows what I know.",
+                    "price": "$14.3 million",
+                    "createdAt": "2022-08-29T18:46:35.067Z",
+                    "updatedAt": "2022-08-29T18:46:35.115Z",
+                    "__v": 0,
+                    "isAuthor": false
+               }
+          ]
+     }
+}
