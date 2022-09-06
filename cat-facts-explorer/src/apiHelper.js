@@ -15,7 +15,18 @@ export async function getAllFacts() {
      try {
           const response = await fetch(`${apiUrl}/facts/`);
           const result = await response.json();
-          
+
+          return result.data;
+     } catch (error) {
+          console.error('There was an error getting all facts from the API.', error);
+     }
+}
+
+export async function getAllBreeds() {
+     try {
+          const response = await fetch(`${apiUrl}/breeds/`);
+          const result = await response.json();
+
           return result.data;
      } catch (error) {
           console.error('There was an error getting all facts from the API.', error);
