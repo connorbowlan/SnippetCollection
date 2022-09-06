@@ -3,7 +3,7 @@ import Fact from "./components/Fact";
 
 function App() {
   return (
-    <div class="container">
+    <div className="container">
       <BrowserRouter>
         <Routes>
           <Route path="/fact" element={<Fact />} ></Route>
