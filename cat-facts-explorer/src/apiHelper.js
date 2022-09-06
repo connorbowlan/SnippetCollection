@@ -10,3 +10,14 @@ export async function getSingleFact() {
           console.error('There was an error getting a single fact from the API.', error);
      }
 }
+
+export async function getAllFacts() {
+     try {
+          const response = await fetch(`${apiUrl}/facts/`);
+          const result = await response.json();
+          
+          return result.data;
+     } catch (error) {
+          console.error('There was an error getting all facts from the API.', error);
+     }
+}
