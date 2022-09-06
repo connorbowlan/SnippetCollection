@@ -4,14 +4,11 @@ import { getAllFacts } from "../apiHelper";
 function Facts() {
      const [facts, setFacts] = useState([]);
 
-
      useEffect(() => {
           Promise.all([getAllFacts]).then(async () => {
                setFacts(await getAllFacts());
           });
      }, []);
-
-     console.log(facts);
 
      return (
           <div>
