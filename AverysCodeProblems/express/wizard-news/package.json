@@ -2,7 +2,8 @@
   "name": "wizardnews",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon app.js"
+    "start:dev": "nodemon app.js", // this is new
+    "start": "node app.js" // this is changed
   },
   "keywords": [],
   "author": "",
