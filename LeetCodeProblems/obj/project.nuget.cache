@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dp88FjRDTBrXSFxSsP+MU359Gn28qgugn5sLTSdmpnXqtaJian+18jaRoaP8LlSzyUtVbkLncmbvS9qA7p7l2g==",
+  "dgSpecHash": "ytZK9OW1Zylas6Kh5lalkwNnL1FqfYlQ26YSYclXpcSaNmHwYs1YBBIKqUY0/9rFs1QWX7Qx6K2w3sN966bxXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Connor\\source\\repos\\connorbowlan\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj",
+  "projectFilePath": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

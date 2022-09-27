@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Connor\\source\\repos\\connorbowlan\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj": {}
+    "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Connor\\source\\repos\\connorbowlan\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj": {
+    "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\connorbowlan\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj",
+        "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj",
         "projectName": "LeetCodeProblems",
-        "projectPath": "C:\\Users\\Connor\\source\\repos\\connorbowlan\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj",
+        "projectPath": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\LeetCodeProblems\\LeetCodeProblems.csproj",
         "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Connor\\source\\repos\\connorbowlan\\SnippetCollection\\LeetCodeProblems\\obj\\",
+        "outputPath": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\LeetCodeProblems\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Connor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

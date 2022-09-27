@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Connor\\Source\\Repos\\connorbowlan\\SnippetCollection\\ConsoleGame\\ConsoleGame.csproj",
+      "projectUniqueName": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\ConsoleGame\\ConsoleGame.csproj",
       "projectName": "ConsoleGame",
-      "projectPath": "C:\\Users\\Connor\\Source\\Repos\\connorbowlan\\SnippetCollection\\ConsoleGame\\ConsoleGame.csproj",
+      "projectPath": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\ConsoleGame\\ConsoleGame.csproj",
       "packagesPath": "C:\\Users\\Connor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Connor\\Source\\Repos\\connorbowlan\\SnippetCollection\\ConsoleGame\\obj\\",
+      "outputPath": "C:\\Users\\Connor\\source\\repos\\SnippetCollection\\ConsoleGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Connor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
